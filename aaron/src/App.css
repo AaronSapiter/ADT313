@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #330000;
+  background-color: #020202;
   color: white;
   text-align: center;
 }
@@ -16,6 +16,12 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  text-align: center;
+}
+
+.landing-logo {
+  max-width: 250px;
+  margin-bottom: 30px;
 }
 
 .landing-buttons button {

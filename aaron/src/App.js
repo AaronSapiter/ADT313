@@ -21,7 +21,13 @@ function App() {
 function Landing() {
   return (
     <div className="landing">
-      <h1>MOVIE FLIX</h1>
+      <img 
+        src="/aaronLogo.png" 
+        alt="Aaron Logo" 
+        className="landing-logo" 
+        style={{ maxWidth: '200px', marginBottom: '20px' }}
+      />
+      <h1>METFLIX</h1>
       <div className="landing-buttons">
         <Link to="/register">
           <button>REGISTER</button>
