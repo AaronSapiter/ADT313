@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #020202;
+  color: white;
+  text-align: center;
+}
+
+.app {
+  padding: 20px;
+}
+
+.landing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.landing-logo {
+  max-width: 250px;
+  margin-bottom: 30px;
+}
+
+.landing-buttons button {
+  background-color: #800000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+
+.landing-buttons button:hover {
+  background-color: #990000;
+}
