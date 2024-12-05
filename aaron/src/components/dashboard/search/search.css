@@ -1,0 +1,118 @@
+.search-container {
+    padding: 20px;
+    width: 100%;
+}
+
+.search-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.search-box input {
+    flex: 1;
+    padding: 12px 20px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.search-box input:focus {
+    outline: none;
+    border-color: #800000;
+}
+
+.search-box button {
+    padding: 12px 24px;
+    background-color: #800000;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.search-box button:hover {
+    background-color: #600000;
+}
+
+.movie-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.movie-card {
+    background: #2a0000;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.movie-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(128, 0, 0, 0.4);
+}
+
+.movie-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.movie-info {
+    padding: 15px;
+    background: #2a0000;
+}
+
+.movie-info h3 {
+    margin: 0 0 8px 0;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.movie-info p {
+    margin: 0 0 12px 0;
+    color: #ffcccc;
+    font-size: 14px;
+}
+
+.movie-info .rating {
+    color: #ff9999;
+    font-weight: 500;
+}
+
+.movie-info button {
+    width: 100%;
+    padding: 8px;
+    background-color: #800000;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.movie-info button:hover {
+    background-color: #600000;
+    transform: translateY(-2px);
+}
+
+.loading {
+    text-align: center;
+    padding: 40px;
+    font-size: 18px;
+    color: #ffcccc;
+}
+
+.no-results {
+    text-align: center;
+    padding: 40px;
+    color: #ffcccc;
+    font-size: 18px;
+}

@@ -1,22 +1,21 @@
 {
-  "name": "sapiter_aaron_bsit3a_mvproj",
+  "name": "admin-dashboard-paris-bsit3c",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost/movieproject-api",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "axios": "^1.7.8",
-    "dom": "^0.0.3",
+    "axios": "^1.7.9",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^7.0.1",
-    "react-scripts": "5.0.1",
-    "router": "^1.3.8",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^3.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
